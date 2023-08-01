@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/858.1d382b66.chunk.js","mappings":"oIAIA,UAJ2B,WACzB,OAAOA,EAAAA,EAAAA,KAAA,QAAAC,SAAM,sBACf,C","sources":["pages/ProjectDetailsPage.jsx"],"sourcesContent":["const ProjectDetailsPage = () => {\n  return <main>ProjectDetailsPage</main>;\n};\n\nexport default ProjectDetailsPage;\n"],"names":["_jsx","children"],"sourceRoot":""}
