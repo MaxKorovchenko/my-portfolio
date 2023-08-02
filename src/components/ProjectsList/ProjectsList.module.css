@@ -1,0 +1,36 @@
+.container {
+  width: 1240px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+.item {
+  width: 360px;
+  height: auto;
+  border: 2px solid rgb(194, 194, 217);
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px 5px grey;
+
+  overflow: hidden;
+
+  transition: transform 250ms ease-in-out;
+
+  &:hover,
+  &:focus {
+    cursor: zoom-in;
+    transform: scale(1.03);
+  }
+}
