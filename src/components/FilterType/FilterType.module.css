@@ -24,12 +24,12 @@
   &:focus {
     box-shadow: 2px 2px 10px 2px rgb(149, 144, 144);
     color: white;
-    background-color: rgb(57, 57, 182);
+    background-color: #3e324a;
   }
 }
 
 .active {
   composes: btn;
   color: white;
-  background-color: rgb(57, 57, 182);
+  background-color: #3e324a;
 }

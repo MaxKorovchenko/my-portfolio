@@ -32,7 +32,7 @@ export const ProjectsList = () => {
         {visibleProjects.map(({ id, name, cover }) => (
           <li className={styles.item} key={id}>
             <img src={cover} alt={name} width={350} height={220} />
-            <p>{name}</p>
+            <p className={styles.text}>{name}</p>
           </li>
         ))}
       </ul>
