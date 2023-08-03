@@ -22,7 +22,7 @@
   height: auto;
   border: 2px solid rgb(194, 194, 217);
   border-radius: 10px;
-  box-shadow: 2px 2px 5px 5px grey;
+  box-shadow: 2px 2px 10px 5px grey;
 
   overflow: hidden;
 
@@ -30,7 +30,7 @@
 
   &:hover,
   &:focus {
-    cursor: zoom-in;
+    cursor: pointer;
     transform: scale(1.03);
   }
 }

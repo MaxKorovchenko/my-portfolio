@@ -1,5 +1,6 @@
 import filmoteka from '../images/projects/filmoteka.jpg';
 import iceCream from '../images/projects/ice-cream.jpg';
+import gooseTrack from '../images/projects/goose-track.jpg';
 import photoGallery from '../images/projects/photo-gallery.jpg';
 import movieFinder from '../images/projects/movie-finder.jpg';
 import retroGames from '../images/projects/retro-games.jpg';
@@ -23,6 +24,14 @@ export const projects = [
   },
   {
     id: '3',
+    name: 'Goose Track',
+    type: 'team',
+    cover: gooseTrack,
+    description: '',
+    technologies: '',
+  },
+  {
+    id: '4',
     name: 'Photo Gallery',
     type: 'solo',
     cover: photoGallery,
@@ -30,7 +39,7 @@ export const projects = [
     technologies: '',
   },
   {
-    id: '4',
+    id: '5',
     name: 'Movie Finder',
     type: 'solo',
     cover: movieFinder,

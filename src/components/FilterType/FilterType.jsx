@@ -1,13 +1,31 @@
 import styles from './FilterType.module.css';
 
-export const FilterType = () => {
+export const FilterType = ({ filter, setFilter }) => {
   return (
     <div className={styles.wrapper}>
       <p>Filter by type :</p>
       <div className={styles.btnGroup}>
-        <button type="button">All</button>
-        <button type="button">Team</button>
-        <button type="button">Solo</button>
+        <button
+          className={filter === 'all' ? styles.active : styles.btn}
+          type="button"
+          onClick={() => setFilter('all')}
+        >
+          All
+        </button>
+        <button
+          className={filter === 'team' ? styles.active : styles.btn}
+          type="button"
+          onClick={() => setFilter('team')}
+        >
+          Team
+        </button>
+        <button
+          className={filter === 'solo' ? styles.active : styles.btn}
+          type="button"
+          onClick={() => setFilter('solo')}
+        >
+          Solo
+        </button>
       </div>
     </div>
   );
