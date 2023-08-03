@@ -1,31 +1,31 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.1c1f50f7.css",
-    "main.js": "/my-portfolio/static/js/main.2258042e.js",
+    "main.js": "/my-portfolio/static/js/main.2c8ca492.js",
     "static/js/983.20e49b07.chunk.js": "/my-portfolio/static/js/983.20e49b07.chunk.js",
-    "static/css/947.d6c749ff.chunk.css": "/my-portfolio/static/css/947.d6c749ff.chunk.css",
-    "static/js/947.67625304.chunk.js": "/my-portfolio/static/js/947.67625304.chunk.js",
+    "static/css/947.5d3a1b47.chunk.css": "/my-portfolio/static/css/947.5d3a1b47.chunk.css",
+    "static/js/947.0d54d510.chunk.js": "/my-portfolio/static/js/947.0d54d510.chunk.js",
     "static/js/858.1d382b66.chunk.js": "/my-portfolio/static/js/858.1d382b66.chunk.js",
     "static/js/246.82bf980c.chunk.js": "/my-portfolio/static/js/246.82bf980c.chunk.js",
     "static/js/520.e33abcd5.chunk.js": "/my-portfolio/static/js/520.e33abcd5.chunk.js",
-    "static/media/photo-gallery.jpg": "/my-portfolio/static/media/photo-gallery.daa719e9eadb29b7e0c3.jpg",
-    "static/media/movie-finder.jpg": "/my-portfolio/static/media/movie-finder.d168d65c998430f94fb4.jpg",
-    "static/media/ice-cream.jpg": "/my-portfolio/static/media/ice-cream.97756d0cdac8fd682c86.jpg",
-    "static/media/filmoteka.jpg": "/my-portfolio/static/media/filmoteka.8126cb768d09f44c2c64.jpg",
-    "static/media/goose-track.jpg": "/my-portfolio/static/media/goose-track.1b0f46d34094bd169321.jpg",
-    "static/media/retro-games.jpg": "/my-portfolio/static/media/retro-games.1c64b80764e10f2a6a13.jpg",
+    "static/media/photo-gallery.jpg": "/my-portfolio/static/media/photo-gallery.a0e8eb253773831f5032.jpg",
+    "static/media/movie-finder.jpg": "/my-portfolio/static/media/movie-finder.249918fe0af6187f28b3.jpg",
+    "static/media/ice-cream.jpg": "/my-portfolio/static/media/ice-cream.3b72ab458e37880bb1f6.jpg",
+    "static/media/filmoteka.jpg": "/my-portfolio/static/media/filmoteka.af18e6b65c0015752c58.jpg",
+    "static/media/goose-track.jpg": "/my-portfolio/static/media/goose-track.2b169687ac14ccd8e862.jpg",
+    "static/media/retro-games.jpg": "/my-portfolio/static/media/retro-games.8eedb804c502070ed80f.jpg",
     "index.html": "/my-portfolio/index.html",
     "main.1c1f50f7.css.map": "/my-portfolio/static/css/main.1c1f50f7.css.map",
-    "main.2258042e.js.map": "/my-portfolio/static/js/main.2258042e.js.map",
+    "main.2c8ca492.js.map": "/my-portfolio/static/js/main.2c8ca492.js.map",
     "983.20e49b07.chunk.js.map": "/my-portfolio/static/js/983.20e49b07.chunk.js.map",
-    "947.d6c749ff.chunk.css.map": "/my-portfolio/static/css/947.d6c749ff.chunk.css.map",
-    "947.67625304.chunk.js.map": "/my-portfolio/static/js/947.67625304.chunk.js.map",
+    "947.5d3a1b47.chunk.css.map": "/my-portfolio/static/css/947.5d3a1b47.chunk.css.map",
+    "947.0d54d510.chunk.js.map": "/my-portfolio/static/js/947.0d54d510.chunk.js.map",
     "858.1d382b66.chunk.js.map": "/my-portfolio/static/js/858.1d382b66.chunk.js.map",
     "246.82bf980c.chunk.js.map": "/my-portfolio/static/js/246.82bf980c.chunk.js.map",
     "520.e33abcd5.chunk.js.map": "/my-portfolio/static/js/520.e33abcd5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1c1f50f7.css",
-    "static/js/main.2258042e.js"
+    "static/js/main.2c8ca492.js"
   ]
 }
