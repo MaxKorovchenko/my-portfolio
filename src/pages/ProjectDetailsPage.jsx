@@ -1,5 +1,11 @@
+import { ProjectDetails } from '../components/ProjectDetails/ProjectDetails';
+
 const ProjectDetailsPage = () => {
-  return <main>ProjectDetailsPage</main>;
+  return (
+    <main>
+      <ProjectDetails />
+    </main>
+  );
 };
 
 export default ProjectDetailsPage;

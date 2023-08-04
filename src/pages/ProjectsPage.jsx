@@ -2,7 +2,7 @@ import { ProjectsList } from '../components/ProjectsList/ProjectsList';
 
 const ProjectsPage = () => {
   return (
-    <main style={{ backgroundColor: 'honeydew' }}>
+    <main style={{ backgroundColor: 'white' }}>
       <ProjectsList />
     </main>
   );

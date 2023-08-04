@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 import { projects } from '../../assets/db/projects';
 import { FilterType } from '../FilterType/FilterType';
@@ -31,8 +32,10 @@ export const ProjectsList = () => {
       <ul className={styles.list}>
         {visibleProjects.map(({ id, name, cover }) => (
           <li className={styles.item} key={id}>
-            <img src={cover} alt={name} width={350} height={220} />
-            <p className={styles.text}>{name}</p>
+            <Link to={`/projects/${id}`}>
+              <img src={cover} alt={name} width={350} height={220} />
+              <p className={styles.text}>{name}</p>
+            </Link>
           </li>
         ))}
       </ul>

@@ -3,7 +3,7 @@ import styles from './FilterType.module.css';
 export const FilterType = ({ filter, setFilter }) => {
   return (
     <div className={styles.wrapper}>
-      <p>Filter by type :</p>
+      <p className={styles.text}>Filter by type :</p>
       <div className={styles.btnGroup}>
         <button
           className={filter === 'all' ? styles.active : styles.btn}

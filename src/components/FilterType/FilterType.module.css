@@ -5,6 +5,12 @@
   margin-bottom: 20px;
 }
 
+.text {
+  font-size: 18px;
+  font-weight: 700;
+  color: #3e324a;
+}
+
 .btnGroup {
   display: flex;
   gap: 15px;
