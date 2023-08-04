@@ -1,0 +1,22 @@
+.link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 5px 1px #3e324a;
+  border-radius: 12px;
+  padding: 7px 10px;
+  text-decoration: none;
+  font-weight: 700;
+
+  background-color: aliceblue;
+
+  transition: 250ms ease-in-out;
+
+  &:focus,
+  &:hover {
+    transform: translateY(-3px);
+  }
+}

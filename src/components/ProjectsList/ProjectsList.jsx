@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 import { projects } from '../../assets/db/projects';
 import { FilterType } from '../FilterType/FilterType';
@@ -7,6 +7,7 @@ import { FilterType } from '../FilterType/FilterType';
 import styles from './ProjectsList.module.css';
 
 export const ProjectsList = () => {
+  const location = useLocation();
   const [filter, setFilter] = useState('all');
 
   const getVisibleProjects = () => {
@@ -32,7 +33,7 @@ export const ProjectsList = () => {
       <ul className={styles.list}>
         {visibleProjects.map(({ id, name, cover }) => (
           <li className={styles.item} key={id}>
-            <Link to={`/projects/${id}`}>
+            <Link to={`/projects/${id}`} state={{ from: location }}>
               <img src={cover} alt={name} width={350} height={220} />
               <p className={styles.text}>{name}</p>
             </Link>
