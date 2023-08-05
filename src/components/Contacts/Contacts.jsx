@@ -12,50 +12,49 @@ export const Contacts = () => {
       <h2 className={styles.title}>Contacts</h2>
 
       <div className={styles.wrapper}>
-        <p>
-          <img src={locationIcon} alt="mail icon" width={100} />
-          Kramatorsk (currently in Poltava), Ukraine{' '}
-        </p>
-        <p>
-          <img src={mailIcon} alt="mail icon" width={100} />
-          <a
-            href="mailto:max.korovchenko@gmail.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            max.korovchenko@gmail.com
-          </a>
-        </p>
-        <p>
-          <img src={telegramIcon} alt="telegram icon" width={100} />
-          <a
-            href="https://t.me/MaxKorovchenko"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Telegram
-          </a>
-        </p>
-        <p>
-          <img src={linkedInIcon} alt="linkedIn icon" width={100} />
-          <a
-            href="https://linkedin.com/in/maxkorovchenko/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            LinkedIn
-          </a>
-        </p>
-        <p>
-          <img src={gitHubIcon} alt="github icon" width={100} />
-          <a
-            href="https://github.com/MaxKorovchenko"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            GitHub
-          </a>
-        </p>
+        <div className={styles.contact}>
+          <img src={locationIcon} alt="mail icon" width={70} />
+          <p>Kramatorsk (currently in Poltava), Ukraine </p>
+        </div>
+
+        <a
+          className={styles.contact}
+          href="mailto:max.korovchenko@gmail.com"
+          rel="noopener noreferrer"
+        >
+          <img src={mailIcon} alt="mail icon" width={70} />
+          max.korovchenko@gmail.com
+        </a>
+
+        <a
+          className={styles.contact}
+          href="https://t.me/MaxKorovchenko"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={telegramIcon} alt="telegram icon" width={70} />
+          Telegram
+        </a>
+
+        <a
+          className={styles.contact}
+          href="https://linkedin.com/in/maxkorovchenko/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={linkedInIcon} alt="linkedIn icon" width={70} />
+          LinkedIn
+        </a>
+
+        <a
+          className={styles.contact}
+          href="https://github.com/MaxKorovchenko"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={gitHubIcon} alt="github icon" width={70} />
+          GitHub
+        </a>
       </div>
     </section>
   );
