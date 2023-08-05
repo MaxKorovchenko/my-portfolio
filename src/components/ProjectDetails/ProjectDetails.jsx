@@ -3,7 +3,7 @@ import { useRef } from 'react';
 
 import { BackLink } from '../BackLink/BackLink';
 import { projects } from '../../assets/db/projects';
-import gitHubIcon from '../../assets/images/svg/github-black.svg';
+import githubIcon from '../../assets/images/svg/github.svg';
 import websiteIcon from '../../assets/images/svg/website.svg';
 
 import styles from './ProjectDetails.module.css';
@@ -34,7 +34,7 @@ export const ProjectDetails = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={gitHubIcon} alt="github icon" width={50} />
+              <img src={githubIcon} alt="github icon" width={50} />
               GitHub
             </a>
             <a
