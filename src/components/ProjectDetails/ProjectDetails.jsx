@@ -3,7 +3,7 @@ import { useRef } from 'react';
 
 import { BackLink } from '../BackLink/BackLink';
 import { projects } from '../../assets/db/projects';
-import githubIcon from '../../assets/images/svg/github.svg';
+import githubIcon from '../../assets/images/svg/githubBlack.svg';
 import websiteIcon from '../../assets/images/svg/website.svg';
 
 import styles from './ProjectDetails.module.css';
