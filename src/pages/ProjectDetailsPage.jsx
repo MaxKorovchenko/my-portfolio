@@ -1,11 +1,7 @@
 import { ProjectDetails } from '../components/ProjectDetails/ProjectDetails';
 
 const ProjectDetailsPage = () => {
-  return (
-    <main>
-      <ProjectDetails />
-    </main>
-  );
+  return <ProjectDetails />;
 };
 
 export default ProjectDetailsPage;

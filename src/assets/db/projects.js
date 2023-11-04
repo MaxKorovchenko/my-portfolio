@@ -64,7 +64,7 @@ export const projects = [
   },
   {
     id: '6',
-    name: 'Retro games',
+    name: 'Retro games (site under construction)',
     type: 'solo',
     role: 'Developer',
     cover: retroGames,

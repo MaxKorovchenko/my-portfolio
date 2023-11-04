@@ -9,11 +9,15 @@ import styles from './Layout.module.css';
 export const Layout = () => {
   return (
     <div className={styles.layout}>
-      <AppBar />
+      <header>
+        <AppBar />
+      </header>
 
-      <Suspense fallback={<p>Loading...</p>}>
-        <Outlet />
-      </Suspense>
+      <main>
+        <Suspense fallback={<p>Loading...</p>}>
+          <Outlet />
+        </Suspense>
+      </main>
 
       <Footer />
     </div>
