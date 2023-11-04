@@ -1,8 +1,8 @@
-import gitHubIcon from '../../assets/images/svg/github.svg';
-import linkedInIcon from '../../assets/images/svg/linkedin.svg';
-import telegramIcon from '../../assets/images/svg/telegram.svg';
-import mailIcon from '../../assets/images/svg/mail.svg';
-import locationIcon from '../../assets/images/svg/location.svg';
+import gitHubIcon from 'assets/images/svg/github.svg';
+import linkedInIcon from 'assets/images/svg/linkedin.svg';
+import telegramIcon from 'assets/images/svg/telegram.svg';
+import mailIcon from 'assets/images/svg/mail.svg';
+import locationIcon from 'assets/images/svg/location.svg';
 
 import styles from './Contacts.module.css';
 

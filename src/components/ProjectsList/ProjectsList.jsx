@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 
-import { projects } from '../../assets/db/projects';
-import { FilterType } from '../FilterType/FilterType';
+import { projects } from 'assets/db/projects';
+import { FilterType } from 'components/FilterType/FilterType';
 
 import styles from './ProjectsList.module.css';
 
