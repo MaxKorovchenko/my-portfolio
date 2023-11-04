@@ -3,17 +3,18 @@
   flex-direction: column;
 
   min-height: 100vh;
-
-  background-color: rgb(36, 36, 113);
 }
 
 header {
   height: 60px;
 
-  background-color: rgb(22, 28, 65);
+  background-color: #071b26;
   color: white;
+  border-bottom: 2px solid #0889ce;
 }
 
 main {
   flex-grow: 1;
+
+  background: linear-gradient(180deg, #071b26, #10508d);
 }

@@ -9,7 +9,7 @@ import styles from './Contacts.module.css';
 export const Contacts = () => {
   return (
     <section className={styles.container}>
-      <h2 className={styles.title}>Contacts</h2>
+      <h2 className={styles.title}>CONTACTS</h2>
 
       <div className={styles.wrapper}>
         <div className={styles.contact}>

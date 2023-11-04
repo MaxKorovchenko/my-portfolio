@@ -27,7 +27,7 @@ export const ProjectsList = () => {
 
   return (
     <div className={styles.container}>
-      <h2 className={styles.title}>Projects</h2>
+      <h2 className={styles.title}>PROJECTS</h2>
       <FilterType filter={filter} setFilter={setFilter} />
 
       <ul className={styles.list}>

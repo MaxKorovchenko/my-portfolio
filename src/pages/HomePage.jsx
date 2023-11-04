@@ -27,7 +27,7 @@ const styles = {
 const HomePage = () => {
   return (
     <div style={styles.container}>
-      <h1 style={styles.title}>Hi! I'm Max - Front-End Developer </h1>
+      <h1 style={styles.title}>Hi! I'm Max, a Front-End Developer </h1>
       <div style={styles.wrapper}>
         <About />
         <Skills />

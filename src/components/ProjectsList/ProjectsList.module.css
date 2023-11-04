@@ -8,10 +8,10 @@
   margin-bottom: 30px;
   font-size: 40px;
   font-weight: 700;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.2em;
   text-align: center;
-  color: #3e324a;
-  text-shadow: 1px 1px 5px rgb(237, 223, 223);
+  color: aliceblue;
+  user-select: none;
 }
 
 .list {
@@ -47,5 +47,5 @@
 
   font-size: 20px;
   color: #ffffff;
-  background-color: #3e324a;
+  background-color: #124560;
 }
