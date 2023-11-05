@@ -1,5 +1,7 @@
 import { About } from 'components/About/About';
 import { Skills } from 'components/Skills/Skills';
+import { AnimatedAbout } from 'utils/animations/AnimatedAbout';
+import { AnimatedSkills } from 'utils/animations/AnimatedSkills';
 
 const styles = {
   container: {
@@ -29,8 +31,13 @@ const HomePage = () => {
     <div style={styles.container}>
       <h1 style={styles.title}>Hi! I'm Max, a Front-End Developer </h1>
       <div style={styles.wrapper}>
-        <About />
-        <Skills />
+        <AnimatedAbout>
+          <About />
+        </AnimatedAbout>
+
+        <AnimatedSkills>
+          <Skills />
+        </AnimatedSkills>
       </div>
     </div>
   );
