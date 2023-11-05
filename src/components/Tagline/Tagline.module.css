@@ -1,0 +1,32 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 10px;
+}
+
+.text {
+  font-size: 24px;
+  white-space: nowrap;
+  overflow: hidden;
+  color: aliceblue;
+
+  animation: runText 10s linear infinite;
+}
+
+@keyframes runText {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+}
