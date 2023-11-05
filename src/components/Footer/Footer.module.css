@@ -10,3 +10,24 @@
   background-color: #071b26;
   color: aliceblue;
 }
+
+.resume {
+  margin-bottom: 10px;
+
+  font-size: 20px;
+  color: aliceblue;
+
+  animation: pulsate 2s infinite;
+}
+
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
