@@ -1,5 +1,5 @@
 import { lazy } from 'react';
-import { Route, Routes } from 'react-router-dom';
+import { Navigate, Route, Routes } from 'react-router-dom';
 
 import { Layout } from 'components/Layout/Layout';
 
@@ -7,9 +7,9 @@ const HomePage = lazy(() => import('pages/HomePage'));
 const ProjectsPage = lazy(() => import('pages/ProjectsPage'));
 const ProjectDetailsPage = lazy(() => import('pages/ProjectDetailsPage'));
 const ContactsPage = lazy(() => import('pages/ContactsPage'));
-const NotFoundPage = lazy(() => import('pages/NotFoundPage'));
+// const NotFoundPage = lazy(() => import('pages/NotFoundPage'));
 
-function App() {
+export const App = () => {
   return (
     <Routes>
       <Route path="/" element={<Layout />}>
@@ -17,10 +17,8 @@ function App() {
         <Route path="projects" element={<ProjectsPage />} />
         <Route path="projects/:projectId" element={<ProjectDetailsPage />} />
         <Route path="contacts" element={<ContactsPage />} />
-        <Route path="*" element={<NotFoundPage />} />
+        <Route path="*" element={<Navigate to="/" replace={true} />} />
       </Route>
     </Routes>
   );
-}
-
-export default App;
+};
