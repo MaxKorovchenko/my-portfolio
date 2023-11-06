@@ -1,14 +1,26 @@
 .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  width: 1240px;
+  max-width: 480px;
   margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
+
+  @media (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 768px;
+  }
+
+  @media (min-width: 1200px) {
+    max-width: 1240px;
+  }
 }
 
 .text {
-  font-size: 20px;
+  display: none;
+
+  @media (min-width: 768px) {
+    display: block;
+    font-size: 20px;
+  }
 }
