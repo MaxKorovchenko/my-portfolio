@@ -1,51 +1,92 @@
 .container {
-  width: 1240px;
+  max-width: 480px;
   margin: 0 auto;
-  padding: 30px 20px;
+  padding: 20px 10px;
+
+  @media (min-width: 768px) {
+    max-width: 768px;
+    padding: 25px 20px;
+  }
+
+  @media (min-width: 1200px) {
+    max-width: 1240px;
+    padding: 30px 20px;
+  }
 }
 
 .title {
-  margin-bottom: 30px;
-  font-size: 40px;
+  margin-bottom: 20px;
+  font-size: 28px;
   font-weight: 700;
   letter-spacing: 0.2em;
   text-align: center;
   color: aliceblue;
 
   user-select: none;
+
+  @media (min-width: 768px) {
+    margin-bottom: 25px;
+    font-size: 30px;
+  }
+
+  @media (min-width: 1200px) {
+    font-size: 40px;
+  }
 }
 
 .wrapper {
   display: flex;
   flex-direction: column;
   row-gap: 25px;
-  padding: 50px;
+  padding: 10px;
   border-radius: 10px;
   box-shadow: 10px 10px 40px 8px black;
   color: #3e324a;
+
+  @media (min-width: 768px) {
+    padding: 20px;
+    row-gap: 20px;
+  }
+
+  @media (min-width: 1200px) {
+    padding: 50px;
+    row-gap: 25px;
+  }
 }
 
 .contact {
   display: flex;
   align-items: center;
-  gap: 50px;
+  gap: 5px;
 
-  width: 800px;
+  width: 100%;
   margin: 0 auto;
   background-color: rgb(196, 214, 229);
   border-radius: 10px;
   padding: 10px 20px;
   box-shadow: 2px 2px 15px 10px #071b26;
 
-  font-size: 30px;
+  font-size: 18px;
   font-weight: 500;
   color: #3e324a;
-  letter-spacing: 0.05em;
 
   transition: 200ms ease-in-out;
 
   &:hover,
   &:focus {
     box-shadow: none;
+  }
+
+  @media (min-width: 768px) {
+    gap: 30px;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+  }
+
+  @media (min-width: 1200px) {
+    width: 80%;
+    gap: 50px;
+    font-size: 30px;
+    letter-spacing: 0.05em;
   }
 }
