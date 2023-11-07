@@ -1,35 +1,36 @@
 .wrapper {
-  display: flex;
-  justify-content: center;
-
-  margin-top: 10px;
+  width: 100%;
+  margin: 10px auto 0;
+  overflow: hidden;
 }
 
 .text {
+  padding: 2px;
   font-size: 16px;
   white-space: nowrap;
   color: aliceblue;
 
-  animation: runText 10s linear infinite;
+  animation: runText 20s linear infinite;
 
   @media (min-width: 480px) {
     font-size: 24px;
+    animation: runText 30s linear infinite;
   }
 }
 
 @keyframes runText {
   0% {
-    transform: translateX(120%);
+    transform: translateX(100%);
     opacity: 0;
   }
-  20% {
+  10% {
     opacity: 1;
   }
   90% {
     opacity: 1;
   }
   100% {
-    transform: translateX(-120%);
+    transform: translateX(-100%);
     opacity: 0;
   }
 }
