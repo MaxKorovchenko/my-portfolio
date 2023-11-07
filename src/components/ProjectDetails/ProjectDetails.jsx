@@ -26,7 +26,7 @@ export const ProjectDetails = () => {
         </div>
 
         <div className={styles.box}>
-          <img className={styles.image} src={cover} alt={name} width={600} />
+          <img className={styles.image} src={cover} alt={name} />
           <div className={styles.linkWrapper}>
             <a
               className={styles.link}
@@ -50,8 +50,12 @@ export const ProjectDetails = () => {
         </div>
 
         <p className={styles.text}>{description}</p>
-        <p className={styles.text}>Role: {role}</p>
-        <p className={styles.text}>Skills: {technologies}</p>
+        <p className={styles.text}>
+          <span className={styles.span}>Role:</span> {role}
+        </p>
+        <p className={styles.text}>
+          <span className={styles.span}>Skills:</span> {technologies}
+        </p>
       </div>
     </section>
   );
