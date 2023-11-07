@@ -5,7 +5,7 @@ const ProjectsPage = () => {
   return (
     <>
       <Tagline />
-      <ProjectsList />;
+      <ProjectsList />
     </>
   );
 };

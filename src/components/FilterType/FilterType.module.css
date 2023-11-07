@@ -2,7 +2,7 @@
   display: flex;
   gap: 10px;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .text {
@@ -13,13 +13,16 @@
 
 .btnGroup {
   display: flex;
-  gap: 15px;
+  gap: 20px;
 }
 
 .btn {
+  width: 60px;
+  height: 30px;
   padding: 7px 14px;
   border: none;
   border-radius: 4px;
+  font-weight: 700;
   background-color: rgb(188, 202, 202);
 
   cursor: pointer;

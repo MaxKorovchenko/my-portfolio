@@ -34,7 +34,7 @@ export const ProjectsList = () => {
         {visibleProjects.map(({ id, name, cover }) => (
           <li className={styles.item} key={id}>
             <Link to={`/projects/${id}`} state={{ from: location }}>
-              <img src={cover} alt={name} width={350} height={220} />
+              <img className={styles.image} src={cover} alt={name} />
               <p className={styles.text}>{name}</p>
             </Link>
           </li>

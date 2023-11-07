@@ -6,17 +6,20 @@
 }
 
 .text {
-  font-size: 24px;
+  font-size: 16px;
   white-space: nowrap;
-  overflow: hidden;
   color: aliceblue;
 
   animation: runText 10s linear infinite;
+
+  @media (min-width: 480px) {
+    font-size: 24px;
+  }
 }
 
 @keyframes runText {
   0% {
-    transform: translateX(100%);
+    transform: translateX(120%);
     opacity: 0;
   }
   20% {
@@ -26,7 +29,7 @@
     opacity: 1;
   }
   100% {
-    transform: translateX(-100%);
+    transform: translateX(-120%);
     opacity: 0;
   }
 }

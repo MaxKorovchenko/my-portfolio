@@ -1,40 +1,84 @@
 .container {
-  width: 1240px;
+  max-width: 480px;
   margin: 0 auto;
   padding: 10px 20px;
+
+  @media (min-width: 768px) {
+    max-width: 768px;
+  }
+
+  @media (min-width: 1200px) {
+    max-width: 1240px;
+  }
 }
 
 .title {
   margin-bottom: 30px;
-  font-size: 40px;
+  font-size: 28px;
   font-weight: 700;
   letter-spacing: 0.2em;
   text-align: center;
   color: aliceblue;
+
   user-select: none;
+
+  @media (min-width: 768px) {
+    margin-bottom: 25px;
+    font-size: 30px;
+  }
+
+  @media (min-width: 1200px) {
+    font-size: 40px;
+  }
 }
 
 .list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 60px;
+  margin: 20px auto;
+
+  @media (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  @media (min-width: 1200px) {
+    gap: 60px;
+  }
 }
 
 .item {
-  width: 360px;
-  height: auto;
+  width: 100%;
+  margin-bottom: 30px;
+
   border: 2px solid rgb(194, 194, 217);
   border-radius: 10px;
   box-shadow: 2px 2px 10px 5px grey;
-
   overflow: hidden;
-
   transition: transform 250ms ease-in-out;
 
   &:hover,
   &:focus {
     cursor: pointer;
     transform: scale(1.03);
+  }
+
+  @media (min-width: 768px) {
+    flex-basis: calc((100% - 30px) / 2);
+    margin-bottom: 0;
+  }
+
+  @media (min-width: 1200px) {
+    flex-basis: calc((100% - 120px) / 3);
+  }
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: 250px;
+
+  @media (min-width: 768px) {
+    height: 220px;
   }
 }
 
@@ -46,6 +90,6 @@
   padding: 10px;
 
   font-size: 20px;
-  color: #ffffff;
+  color: aliceblue;
   background-color: #124560;
 }
