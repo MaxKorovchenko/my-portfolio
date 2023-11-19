@@ -19,8 +19,6 @@ main {
   background: linear-gradient(180deg, #071b26, #10508d);
 }
 
-/* Styles for HomePage */
-
 .container {
   max-width: 480px;
   margin: 0 auto;
