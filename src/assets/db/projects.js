@@ -1,6 +1,7 @@
 import filmoteka from '../images/projects/filmoteka.jpg';
 import iceCream from '../images/projects/ice-cream.jpg';
 import gooseTrack from '../images/projects/goose-track.jpg';
+import phonebook from '../images/projects/phonebook.jpg';
 import photoGallery from '../images/projects/photo-gallery.jpg';
 import movieFinder from '../images/projects/movie-finder.jpg';
 import retroGames from '../images/projects/retro-games.jpg';
@@ -42,6 +43,18 @@ export const projects = [
   },
   {
     id: '4',
+    name: 'Phonebook',
+    type: 'solo',
+    role: 'Developer',
+    cover: phonebook,
+    description:
+      'A simple React.js App with various features for managing contacts.',
+    technologies: 'HTML, CSS, JS, React, Redux',
+    github: 'https://github.com/MaxKorovchenko/phonebook',
+    livePage: 'https://maxkorovchenko.github.io/phonebook/',
+  },
+  {
+    id: '5',
     name: 'Photo Gallery',
     type: 'solo',
     role: 'Developer',
@@ -52,7 +65,7 @@ export const projects = [
     livePage: 'https://maxkorovchenko.github.io/goit-js-hw-11/',
   },
   {
-    id: '5',
+    id: '6',
     name: 'Movie Finder',
     type: 'solo',
     role: 'Developer',
@@ -63,7 +76,7 @@ export const projects = [
     livePage: 'https://maxkorovchenko.github.io/goit-react-hw-05-movies/',
   },
   {
-    id: '6',
+    id: '7',
     name: 'Retro games (site under construction)',
     type: 'solo',
     role: 'Developer',
