@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.b58a324c.css",
-    "main.js": "/my-portfolio/static/js/main.75eeec86.js",
+    "main.js": "/my-portfolio/static/js/main.dcac522e.js",
     "static/css/439.0d0c2075.chunk.css": "/my-portfolio/static/css/439.0d0c2075.chunk.css",
     "static/js/439.ece047ad.chunk.js": "/my-portfolio/static/js/439.ece047ad.chunk.js",
     "static/css/471.20c59765.chunk.css": "/my-portfolio/static/css/471.20c59765.chunk.css",
@@ -13,7 +13,7 @@
     "static/js/658.89e17d02.chunk.js": "/my-portfolio/static/js/658.89e17d02.chunk.js",
     "static/js/971.e7c7d66b.chunk.js": "/my-portfolio/static/js/971.e7c7d66b.chunk.js",
     "static/js/185.dd531f50.chunk.js": "/my-portfolio/static/js/185.dd531f50.chunk.js",
-    "static/media/Max_Korovchenko_Front-End_Developer.pdf": "/my-portfolio/static/media/Max_Korovchenko_Front-End_Developer.004af2447a11cfc1e76b.pdf",
+    "static/media/Max_Korovchenko_Front-End_Developer.pdf": "/my-portfolio/static/media/Max_Korovchenko_Front-End_Developer.4d06ef2cd9a245953897.pdf",
     "static/media/photo-gallery.jpg": "/my-portfolio/static/media/photo-gallery.a0e8eb253773831f5032.jpg",
     "static/media/movie-finder.jpg": "/my-portfolio/static/media/movie-finder.249918fe0af6187f28b3.jpg",
     "static/media/ice-cream.jpg": "/my-portfolio/static/media/ice-cream.3b72ab458e37880bb1f6.jpg",
@@ -35,7 +35,7 @@
     "static/media/telegram.svg": "/my-portfolio/static/media/telegram.d32036e023ee7574bc705f27f6764a74.svg",
     "static/media/mail.svg": "/my-portfolio/static/media/mail.f564bf08cd7de4ad6323c2201d0af44b.svg",
     "main.b58a324c.css.map": "/my-portfolio/static/css/main.b58a324c.css.map",
-    "main.75eeec86.js.map": "/my-portfolio/static/js/main.75eeec86.js.map",
+    "main.dcac522e.js.map": "/my-portfolio/static/js/main.dcac522e.js.map",
     "439.0d0c2075.chunk.css.map": "/my-portfolio/static/css/439.0d0c2075.chunk.css.map",
     "439.ece047ad.chunk.js.map": "/my-portfolio/static/js/439.ece047ad.chunk.js.map",
     "471.20c59765.chunk.css.map": "/my-portfolio/static/css/471.20c59765.chunk.css.map",
@@ -50,6 +50,6 @@
   },
   "entrypoints": [
     "static/css/main.b58a324c.css",
-    "static/js/main.75eeec86.js"
+    "static/js/main.dcac522e.js"
   ]
 }
