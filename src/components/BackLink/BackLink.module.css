@@ -13,7 +13,7 @@
 
   background-color: aliceblue;
 
-  transition: 250ms ease-in-out;
+  transition: transform 250ms ease-in-out;
 
   &:focus,
   &:hover {

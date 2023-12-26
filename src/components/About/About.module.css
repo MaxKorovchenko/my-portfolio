@@ -29,11 +29,13 @@
 
 .text {
   text-align: justify;
+  text-indent: 25px;
   font-size: 20px;
   font-family: 'Helvetica';
   color: rgb(204, 213, 221);
 
   @media (min-width: 768px) {
+    text-align: left;
     font-size: 22px;
   }
 

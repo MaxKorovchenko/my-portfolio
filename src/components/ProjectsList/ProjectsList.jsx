@@ -32,7 +32,7 @@ export const ProjectsList = () => {
 
       <ul className={styles.list}>
         {visibleProjects.map(({ id, name, cover }) => (
-          <li className={styles.item} key={id}>
+          <li className={styles.item} key={id} tabIndex="0">
             <Link to={`/projects/${id}`} state={{ from: location }}>
               <img className={styles.image} src={cover} alt={name} />
               <p className={styles.text}>{name}</p>
