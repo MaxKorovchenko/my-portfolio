@@ -12,19 +12,19 @@ export const Skills = () => {
       <h2 className={styles.title}>Skills</h2>
       <ul className={styles.list}>
         <li>
-          <img className={styles.item} src={html} alt="html" />
+          <img className={styles.item} src={html} alt="html" title="HTML" />
         </li>
         <li>
-          <img className={styles.item} src={css} alt="css" />
+          <img className={styles.item} src={css} alt="css" title="CSS" />
         </li>
         <li>
-          <img className={styles.item} src={js} alt="js" />
+          <img className={styles.item} src={js} alt="js" title="JavaScript" />
         </li>
         <li>
-          <img className={styles.item} src={react} alt="react" />
+          <img className={styles.item} src={react} alt="react" title="React" />
         </li>
         <li>
-          <img className={styles.item} src={redux} alt="redux" />
+          <img className={styles.item} src={redux} alt="redux" title="Redux" />
         </li>
       </ul>
     </div>

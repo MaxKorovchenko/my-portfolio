@@ -9,7 +9,7 @@ export const Footer = () => {
         Download Resume
       </a>
 
-      <p>© 2023</p>
+      <p>© 2024</p>
     </footer>
   );
 };
