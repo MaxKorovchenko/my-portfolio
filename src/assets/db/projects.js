@@ -44,6 +44,18 @@ export const projects = [
   },
   {
     id: '4',
+    name: 'Retro Games',
+    type: 'solo',
+    role: 'Developer',
+    cover: retroGames,
+    description:
+      'Nostalgic application immersing you in the gaming world of the 90s',
+    technologies: 'HTML, CSS, JS, React, Redux, Node.js, Express, MongoDB',
+    github: 'https://github.com/MaxKorovchenko/retro-games-frontend',
+    livePage: 'https://maxkorovchenko.github.io/retro-games-frontend',
+  },
+  {
+    id: '5',
     name: 'Phonebook',
     type: 'solo',
     role: 'Developer',
@@ -55,7 +67,7 @@ export const projects = [
     livePage: 'https://maxkorovchenko.github.io/phonebook/',
   },
   {
-    id: '5',
+    id: '6',
     name: 'UEFA Champions League Playoff',
     type: 'solo',
     role: 'Developer',
@@ -67,7 +79,7 @@ export const projects = [
     livePage: 'https://maxkorovchenko.github.io/uefa-cl-playoff',
   },
   {
-    id: '6',
+    id: '7',
     name: 'Photo Gallery',
     type: 'solo',
     role: 'Developer',
@@ -78,7 +90,7 @@ export const projects = [
     livePage: 'https://maxkorovchenko.github.io/goit-js-hw-11/',
   },
   {
-    id: '7',
+    id: '8',
     name: 'Movie Finder',
     type: 'solo',
     role: 'Developer',
@@ -87,17 +99,5 @@ export const projects = [
     technologies: 'HTML, CSS, JS, React',
     github: 'https://github.com/MaxKorovchenko/goit-react-hw-05-movies',
     livePage: 'https://maxkorovchenko.github.io/goit-react-hw-05-movies/',
-  },
-  {
-    id: '8',
-    name: 'Retro games (site under construction)',
-    type: 'solo',
-    role: 'Developer',
-    cover: retroGames,
-    description:
-      'Nostalgic application immersing you in the gaming world of the 90s',
-    technologies: 'HTML, CSS, JS, React, Redux, Node.js, Express, MongoDB',
-    github: '',
-    livePage: '',
   },
 ];
