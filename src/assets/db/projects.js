@@ -5,7 +5,7 @@ import phonebook from '../images/projects/phonebook.jpg';
 import uefa from '../images/projects/uefa-cl.jpg';
 import photoGallery from '../images/projects/photo-gallery.jpg';
 import movieFinder from '../images/projects/movie-finder.jpg';
-import retroGames from '../images/projects/retro-games.jpg';
+import retroGames from '../images/projects/retro-games.webp';
 
 export const projects = [
   {
